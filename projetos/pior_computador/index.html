@@ -1,0 +1,43 @@
+<head>
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="/styles/default.css">
+</head>
+
+<body>
+    <header>
+        <h1><a class="nodec" href="/">Pedro Silva</a></h1>
+        <nav>
+            <ul>
+                <li> <a class="nodec" href="/index.html#about">Sobre</a> </li>
+                <li> <a class="nodec" href="/index.html#contact">Contato</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Pior Computador Do Mundo</h2>
+        <p>Esse foi um computador minimalista que eu tinha feito no 2º ano do meu curso técnico.</p>
+        <p>Esse computador tem 4 bits de RAM, e 3 operações básicas: AND, OR e NOT</p>
+       <br>
+       <div align="center"><iframe src="https://circuitverse.org/simulator/embed/pior-computador-do-mundo?theme=night-sky&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2; border-style: dotted; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe></div>
+    </section>
+    
+   
+   <section>
+      <h2>Como funciona</h2>
+      <li>As entradas OPER1 e OPER2 determinam os operandos. Entradas 100 e 110 definem uma constante de valor 1. Entradas 101 e 111 definem uma constante de valor 0. As outras entradas usarão seu respectivo endereço de memória como operando</li>
+   <br>
+      <li>A entrada OR/AND determina a operação que será feita. Se seu valor for 0, será feita a operação OR (retorna 1 se qualquer um dos operandos for 1). Se for 1, será feita a operação AND (retorna 1 apenas se ambos os operandos forem 1)</li>
+      <br>
+      <li>A entrada NOT determina se o resultado da operação anterior deve ser invertido. Se seu valor for 0, será retornado o valor da operação anterior. Se for 1, o valor será invertido (Ex.: Se a operação AND retorna 1, ele será invertido para 0)</li>
+      <br>
+      <li>Por fim, a entrada ADDRESS é em qual endereço da memória o resultado das operações anteriores deve ser mantido</li>
+      <br>
+      <li>Ao pressionar RUN, a operação é finalizada e guardada na memória RAM</li>
+   </section>
+</body>
